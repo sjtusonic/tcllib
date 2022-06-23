@@ -1406,7 +1406,7 @@ proc ::math::geometry::areaParallellogram {vector1 vector2} {
 
     lassign $vector1 x1 y1; lassign $vector2 x2 y2
 
-    set area [expr {abs($x2 * $y1 - $x1 * $y2}]
+    set area [expr {abs($x2 * $y1 - $x1 * $y2)}]
 
     return $area
 }
